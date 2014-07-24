@@ -1,0 +1,131 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+/* line 17, ../sass/main.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/main.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 30, ../sass/main.scss */
+body {
+  line-height: 1;
+}
+
+/* line 33, ../sass/main.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 36, ../sass/main.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/main.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, ../sass/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of Reset */
+/* line 51, ../sass/main.scss */
+body {
+  background: #efeae8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 56, ../sass/main.scss */
+a:hover {
+  opacity: .7;
+}
+
+/* line 60, ../sass/main.scss */
+header {
+  background: #e74c3c;
+  height: 60px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* line 68, ../sass/main.scss */
+header #title {
+  float: left;
+  padding: 15px 0 0 40px;
+  font-size: 1.6em;
+}
+/* line 73, ../sass/main.scss */
+header #category {
+  float: right;
+  padding: 20px 30px 0 0;
+}
+/* line 76, ../sass/main.scss */
+header #category a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 83, ../sass/main.scss */
+#google_feeds {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: #fff;
+}
+
+/* line 91, ../sass/main.scss */
+.gfc-resultsHeader {
+  border: none;
+}
+
+/* line 95, ../sass/main.scss */
+.gfc-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 12px;
+  color: #3d4950;
+}
+
+/* line 102, ../sass/main.scss */
+.gf-spacer {
+  display: hidden;
+}
+
+/* line 107, ../sass/main.scss */
+.gf-title a {
+  color: #999;
+}
